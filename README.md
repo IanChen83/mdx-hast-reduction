@@ -61,5 +61,5 @@ Note that these numbers may vary by webpack or MDX versions.
 
 ## TODO
 
-- [] Respect options (especially the `components` prop)
-- [] More aggressive reduction on the root node.
+- [ ] Respect options (especially the `components` prop)
+- [ ] More aggressive reduction on the root node.

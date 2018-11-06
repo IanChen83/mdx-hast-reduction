@@ -1,0 +1,26 @@
+{
+  "name": "mdx-hast-reduction",
+  "version": "0.0.1",
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/IanChen83/mdx-hast-reduction/issues"
+  },
+  "keywords": [
+    "mdxast",
+    "mdx",
+    "markdown",
+    "rehype"
+  ],
+  "homepage": "https://github.com/IanChen83/mdx-hast-reduction#readme",
+  "description": "An MDX-HAST plugin to reduce the number of nodes in the AST tree",
+  "repository": "git@github.com:IanChen83/mdx-hast-reduction.git",
+  "author": "Ian Chen <ianchen83.tw@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+      "@mdx-js/mdx": "0.x"
+  },
+  "dependencies": {
+    "hast-util-to-html": "^4.0.1"
+  }
+}

@@ -20,7 +20,7 @@ reduce the number of elements for outputs.
 ## Usage
 
 Put this plugin in the `hastPlugins` array.
-See [MDX documentation](https://mdxjs.com/plugins). Or you can check out the
+See [MDX documentation](https://mdxjs.com/plugins). Or you can check out
 `webpack.modules.config.js` in the `example` folder.
 
 ## Benchmark
@@ -57,9 +57,18 @@ dist
 
 ```
 
+It's (11656-8541)/11656 = **26.7%** reduction on size without losing any functionality.
+All JSX nodes (if there is any) will be kept.
+
 Note that these numbers may vary by webpack or MDX versions.
+
+## Contribute
+
+Our goal is to reduce bundle size *without losing any functionality*.
+Bug reports, pull requests, or any suggestions for achieving this goal are welcome!
 
 ## TODO
 
 - [ ] Respect options (especially the `components` prop)
+- [ ] Include reduction on JSX HTML literal (e.g. `<i>node</i>` will be reduced).
 - [ ] More aggressive reduction on the root node.

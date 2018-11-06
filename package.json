@@ -1,6 +1,6 @@
 {
   "name": "mdx-hast-reduction",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "bugs": {
     "url": "https://github.com/IanChen83/mdx-hast-reduction/issues"
